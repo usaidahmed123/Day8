@@ -17,6 +17,9 @@ class harp {
 		
 		System.out.println("this method0:\t"+key);
 	}
+	void method2() {
+		System.out.println("this (key) cant be changed in entire program because of final keyword in variable i.e:/t"+key);   
+	}
 }
 
 public class FinalKeyword extends harp {
