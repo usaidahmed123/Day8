@@ -18,7 +18,7 @@ class harp {
 		System.out.println("this method0:\t"+key);
 	}
 	void method2() {
-		System.out.println("this (key) cant be changed in entire program because of final keyword in variable i.e:/t"+key);   
+		System.out.println("this (no.) cant be changed in entire program because of final keyword in variable i.e:\t"+key);   
 	}
 }
 
@@ -33,7 +33,8 @@ public class FinalKeyword extends harp {
 		// TODO Auto-generated method stub
 		/*FinalKeyword K = new FinalKeyword();
 		K.method1();  */    // can't override!
-		
+		harp H = new harp();
+		H.method2();
 	}
 
 }
